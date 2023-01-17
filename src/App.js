@@ -29,7 +29,10 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <>
+    <div className="navbar"></div>
+      
+
       <div className="wrapper" 
       ref={wrapperRef} 
       onMouseDown={mouseDownHandler} 
@@ -53,7 +56,7 @@ function App() {
           <div className="slider">15</div>
           <div className="slider">16</div>
       </div>
-    </div>
+    </>
   );
 }
 
