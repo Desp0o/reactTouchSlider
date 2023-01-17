@@ -30,27 +30,42 @@ code {
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper{
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
   width: 768px;
   max-width: 100%;
-  
-  overflow-x:hidden;
+
+  overflow-x:auto;
+  scroll-snap-type: x;
   scroll-behavior: smooth;
+  scrollbar-width: 0;
+}
+
+.wrapper::-webkit-scrollbar{
+  display: none;
 }
 
 .slider{
   min-width: 200px;
   height: 200px;
+
   background-color: #222;
+  color: #fff;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 2rem;
-
+  
+  scroll-snap-align: start;
   user-select: none;
 }
