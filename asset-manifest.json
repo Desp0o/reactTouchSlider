@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactTouchSlider/static/css/main.423273d9.css",
+    "main.js": "/reactTouchSlider/static/js/main.74b2ecd2.js",
+    "index.html": "/reactTouchSlider/index.html",
+    "main.423273d9.css.map": "/reactTouchSlider/static/css/main.423273d9.css.map",
+    "main.74b2ecd2.js.map": "/reactTouchSlider/static/js/main.74b2ecd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.423273d9.css",
+    "static/js/main.74b2ecd2.js"
+  ]
+}
